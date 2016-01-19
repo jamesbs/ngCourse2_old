@@ -1,0 +1,27 @@
+# ImmutableJS
+
+[ImmutableJS](https://facebook.github.io/immutable-js/) is a library that provides immutable generic collections.
+
+## What is immutability?
+  - data is stored in memory
+  - variables are references to those memory stores
+  - if multiple variables reference the same object, changing the value of that object changes the value in all of them, this is mutation
+
+## Mutability and JavaScript types
+  - primitives (incl string) are immutable
+  - objects, arrays, functions are mutable
+
+## Javascript built in support for immutability/why use ImmutableJS in the first place?
+  - to make immutable, must have a way of disabling mutate operations (object.freeze)
+  - to be able to interact with immutable data structures, need to have the ability to copy objects/arrays
+    - object.assign is shallow copy (find some cases to prove this doesn't deep copy)
+    - object deep copy is non trivial
+
+## ImmutableJS
+  - Lists as Array replacement
+  - Maps as an object key/value store replacement. object = Map<string, T>
+
+## Examples, use cases
+  - Change detection? -> change detection section later on in course
+  - RxJS event streams
+  - to do app examples
