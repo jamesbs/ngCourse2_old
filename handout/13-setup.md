@@ -3,7 +3,32 @@
 
 
 - [Part 13: Project Setup](#part-13-project-setup)
-  - [Angular CLI](#angular-cli)
+  - [TypeScript Configuration](#typescript-configuration)
+      - [target](#target)
+      - [module](#module)
+      - [emitDecoratorMetadata, experimentalDecorators](#emitdecoratormetadata-experimentaldecorators)
+      - [exclude](#exclude)
+  - [Webpack](#webpack)
+    - [Why use another tool?](#why-use-another-tool)
+    - [Installation](#installation)
+    - [Setup and Usage](#setup-and-usage)
+    - [Output configuration](#output-configuration)
+      - [path](#path)
+      - [filename](#filename)
+      - [publicPath](#publicpath)
+      - [sourceMapFilename](#sourcemapfilename)
+      - [chunkFilename](#chunkfilename)
+    - [Loaders](#loaders)
+      - [test](#test)
+      - [loader](#loader)
+      - [exclude](#exclude-1)
+      - [include](#include)
+      - [raw-loader](#raw-loader)
+      - [url-loader](#url-loader)
+      - [css-loader](#css-loader)
+      - [style-loader](#style-loader)
+    - [Plugins](#plugins)
+    - [Summary](#summary)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
