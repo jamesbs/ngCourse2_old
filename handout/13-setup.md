@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Part 13: Project Setup](#part-13-project-setup)
+  - [Angular CLI](#angular-cli)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Part 13: Project Setup #
 
 We're integrating a large part of our application with Webpack and TypeScript, so it's important to go over how those are setup and configured to get a good understanding of what gets generated client-side.

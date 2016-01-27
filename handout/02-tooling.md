@@ -1,6 +1,21 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Part 2: The JavaScript Toolchain](#part-2-the-javascript-toolchain)
+  - [Source Control: [Git](http://git-scm.com/)](#source-control-githttpgit-scmcom)
+  - [The Command Line](#the-command-line)
+  - [Command-line JavaScript: [Node.JS](http://nodejs.org)](#command-line-javascript-nodejshttpnodejsorg)
+  - [Back-End Code Sharing and Distribution: [npm](https://www.npmjs.com/)](#back-end-code-sharing-and-distribution-npmhttpswwwnpmjscom)
+  - [Module Loading, Bundling and Build Tasks: [Webpack](http://webpack.github.io/docs/what-is-webpack.html)](#module-loading-bundling-and-build-tasks-webpackhttpwebpackgithubiodocswhat-is-webpackhtml)
+  - [Chrome](#chrome)
+  - [Getting the Code](#getting-the-code)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Part 2: The JavaScript Toolchain
 
-In this section, we'll describe the tools that we'll be using for the rest of the course.
+In this section, we'll describe the tools that you'll be using for the rest of the course.
 
 ## Source Control: [Git](http://git-scm.com/)
 
@@ -19,7 +34,7 @@ NodeJS is an environment that lets you write JavaScript programs that live outsi
 * the V8 JavaScript interpreter
 * modules for doing OS tasks like file I/O, HTTP, etc.
 
-While NodeJS was initially intended for writing server code in JavaScript, today it is widely used by JavaScript tools, which makes it relevant to front-end developers too. A lot of the tools we'll be using in this code leverage NodeJS.
+While NodeJS was initially intended for writing server code in JavaScript, today it is widely used by JavaScript tools, which makes it relevant to front-end developers too. A lot of the tools you'll be using in this code leverage NodeJS.
 
 ## Back-End Code Sharing and Distribution: [npm](https://www.npmjs.com/)
 
@@ -39,14 +54,14 @@ Code written with AngularJS should work on any modern web browser however (Firef
 
 ## Getting the Code
 
-Before we proceed, get the code from Git if you have not done so:
+Before you proceed, get the code from Git if you have not done so:
 
 ```bash
   git clone https://github.com/rangle/ngcourse2.git
   cd ngcourse2
 ```
 
-Now, switch to the branch that we'll be using for today's course:
+Now, switch to the branch that you'll be using for today's course:
 
 ```bash
   git branch --track YYYY-DD-MM origin/YYYY-DD-MM
@@ -55,7 +70,7 @@ Now, switch to the branch that we'll be using for today's course:
 
 **Replace "YYYY-DD-MM" above with the start date of the course, e.g., "2015-06-17".**
 
-This gives us a hollowed-out version of the application we'll be building.
+This gives you a hollowed-out version of the application we'll be building.
 
 Install NPM and Bower packages:
 
@@ -69,7 +84,7 @@ Start webpack's development server
   npm start
 ```
 
-We can also serve the app from a build directory using something like `http-server`.
+You can also serve the app from a build directory using something like `http-server`.
 
 Install it if you have not yet done so:
 
